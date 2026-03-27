@@ -509,7 +509,7 @@ footer
 
 @media (max-width: 768px)
 {
-   .navbar
+    .navbar
     {
         display: none;
     }
@@ -617,6 +617,7 @@ footer
 
 .nav-menu {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 25px;
     list-style: none;
@@ -631,23 +632,4 @@ footer
 
 .nav-menu li a:hover {
     color: #38bdf8;
-}
-
-.nav-cv {
-    border: 2px solid #38bdf8;
-    padding: 6px 15px;
-    border-radius: 6px;
-}
-
-.nav-cv:hover {
-    background-color: #38bdf8;
-    color: #ffffff;
-}
-
-/* ===== MOBILE RESPONSIVE ===== */
-.nav-toggle {
-    display: none;
-    font-size: 22px;
-    color: #38bdf8;
-    cursor: pointer;
 }
